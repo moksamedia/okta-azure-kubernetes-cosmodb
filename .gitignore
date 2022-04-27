@@ -1,2 +1,4 @@
 *.env
 secrets.yml
+.okta.env
+.idea
