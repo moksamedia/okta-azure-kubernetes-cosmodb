@@ -35,8 +35,8 @@ data:
             registration:
               oidc:
                 client-id: <client-id>
-                client-secret: "<client-secret>"
-                
+                client-secret: "{cipher}<encrypted-client-secret>"
+
   # app specific configuration
   jhipster-registry.yml: |-
     eureka:

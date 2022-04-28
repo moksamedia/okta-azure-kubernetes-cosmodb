@@ -45,7 +45,7 @@ spec:
             - name: SPRING_DATA_MONGODB_DATABASE
               value: store
             - name: SPRING_DATA_MONGODB_URI
-              value: "<your-connect-string>"
+              value: "<your-connection-string>"
             - name: SPRING_SLEUTH_PROPAGATION_KEYS
               value: "x-request-id,x-ot-span-context"
             - name: JAVA_OPTS
